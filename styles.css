@@ -1,27 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
 
 :root {
-    --cor-de-fundo: #f5f5f5;
+    --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
     --laranja: #EB9B00;
-    --azul-degrade: linear-gradient(97.54deg, #323c43 35.49%, #5e8eaf 165.37%);
-    --fonte-principal: "Poppins", sans-serif;
-    --azul: #072339;
-    --cinza-claro: #d3d3d3;
-    --cinza-escuro: #666666;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+    --azul: #002F52;
+    --preto: #000000;
+    --cinza: #474646;
+    --cinza-claro: #858585;
 }
 
 body {
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
     font-size: 16px;
-    color: var(--cinza-escuro);
+    font-weight: 400;
 }
 
 a {
@@ -151,7 +146,7 @@ header {
     margin-bottom: 10px;
 }
 
-.descrição__titulo-livro {
+.descrição__titulo-carro {
     font-size: 1.2rem;
     margin-bottom: 10px;
     font-weight: 500;
@@ -159,7 +154,7 @@ header {
 
 .descrição__texto {
     font-size: 1rem;
-    color: var(--cinza-escuro);
+    color: var(--cinza);
 }
 
 .descrição__imagem {
